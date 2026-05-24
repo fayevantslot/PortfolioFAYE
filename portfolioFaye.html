@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faye van 't Slot | Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Music bar: audio-bestand staat in de projectmap; pad naar jouw MP3-bestand hieronder ingesteld -->
+    <div class="music-bar" id="musicBar" data-src="Maribou%20State%20-%20Blackoak%20%28SPOTISAVER%29.mp3" data-label="background music(:">
+        <div class="music-left">
+            <button id="musicToggle" aria-label="Play/pause">▶</button>
+            <div class="track-info">No track selected</div>
+        </div>
+        <div class="music-right">
+            <button id="musicMute" aria-label="Mute/unmute">🔊</button>
+        </div>
+        <audio id="site-audio" src="Maribou%20State%20-%20Blackoak%20%28SPOTISAVER%29.mp3" loop preload="none"></audio>
+    </div>
+
+    <nav>
+        <div class="logo">
+            <a href="index.html">FAYE.</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About me</a></li>
+            <li><a href="#personal">Personal work</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">CreaTe work</a>
+                <div class="dropdown-content">
+                    <a href="#year1">Year 1</a>
+                    <a href="#year2">Year 2</a>
+                    <a href="#year3">Year 3</a>
+                </div>
+            </li>
+            <li><a href="#contact">Contact me</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Faye van 't Slot</h1>
+            <p class="subtitle italic">Creative Technology Student & Designer</p>
+        </div>
+        <div class="scroll-indicator">↓</div>
+    </header>
+
+    <section id="about" class="container scroll-section">
+        <div class="section-title fade-in-left">
+            <span>01</span>
+            <h2>About me</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-text fade-in-left" style="animation-delay: 0.2s;">
+                <p>Hello, I'm Faye! I'm a Creative Technology student at TU Twente and Vrije Universiteit Amsterdam. I'm passionate about design, art, and (digital) creativity. Creativity has always been a big part of my life. I'm creative in different ways: I love 3D modeling, Digital Art, painting, design, technical projects, and I also enjoy fashion.
+
+ I work as a model, which allows me to travel a lot, something I really love. Being in different places and surrounded by diverse styles and cultures constantly inspires me.  I started traveling solo at 17, some of the places I've visited include Japan, England, France, Thailand, Vietnam and Italy. </p>
+            </div>
+            <div class="about-image fade-in-right" style="animation-delay: 0.4s;">
+                <div class="profile-photo-frame">
+                    <img src="foto's/ProfielFoto.jpg" alt="Profiel foto" class="profile-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="personal" class="container scroll-section">
+        <div class="section-title fade-in-up">
+            <span>02</span>
+            <h2>Personal work</h2>
+        </div>
+        <div class="work-grid">
+            <a class="work-link" href="project-detail.html?project=1">
+                <div class="work-item stagger-item" style="animation-delay: 0s;">
+                    <div class="work-img"></div>
+                    <h3>Visual Identity Series</h3>
+                    <p>Branding / Editorial</p>
+                </div>
+            </a>
+            <a class="work-link" href="project-detail.html?project=2">
+                <div class="work-item stagger-item" style="animation-delay: 0.1s;">
+                    <div class="work-img chair-img"></div>
+                    <h3>Upcycled Chair</h3>
+                    <p>Sustainable Design / Upcycling</p>
+                </div>
+            </a>
+            <a class="work-link" href="project-detail.html?project=3">
+                <div class="work-item stagger-item" style="animation-delay: 0.2s;">
+                    <div class="work-img"></div>
+                    <h3>Interactive Poster</h3>
+                    <p>Motion Graphics</p>
+                </div>
+            </a>
+            <a class="work-link" href="project-detail.html?project=4">
+                <div class="work-item stagger-item" style="animation-delay: 0.3s;">
+                    <div class="work-img"></div>
+                    <h3>AR Fashion Story</h3>
+                    <p>Experience Design</p>
+                </div>
+            </a>
+            <a class="work-link" href="project-detail.html?project=5">
+                <div class="work-item stagger-item" style="animation-delay: 0.4s;">
+                    <div class="work-img"></div>
+                    <h3>Type Experiment</h3>
+                    <p>Typography</p>
+                </div>
+            </a>
+            <a class="work-link" href="project-detail.html?project=6">
+                <div class="work-item stagger-item" style="animation-delay: 0.5s;">
+                    <div class="work-img"></div>
+                    <h3>Photo Diary</h3>
+                    <p>Photography</p>
+                </div>
+            </a>
+            <a class="work-link" href="project-detail.html?project=7">
+                <div class="work-item stagger-item" style="animation-delay: 0.6s;">
+                    <div class="work-img"></div>
+                    <h3>Eco Installation</h3>
+                    <p>Environmental Design</p>
+                </div>
+            </a>
+            <a class="work-link" href="project-detail.html?project=8">
+                <div class="work-item stagger-item" style="animation-delay: 0.7s;">
+                    <div class="work-img"></div>
+                    <h3>Product Prototype</h3>
+                    <p>Industrial Design</p>
+                </div>
+            </a>
+            <a class="work-link" href="project-detail.html?project=9">
+                <div class="work-item stagger-item" style="animation-delay: 0.8s;">
+                    <div class="work-img"></div>
+                    <h3>Soundscape Lab</h3>
+                    <p>Audio / Visual</p>
+                </div>
+            </a>
+            <a class="work-link" href="project-detail.html?project=10">
+                <div class="work-item stagger-item" style="animation-delay: 0.9s;">
+                    <div class="work-img"></div>
+                    <h3>Digital Exhibition</h3>
+                    <p>UX / UI</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="create" class="container scroll-section">
+        <div class="section-title fade-in-up">
+            <span>03</span>
+            <h2>CreaTe work</h2>
+        </div>
+        
+        <div id="year1" class="year-section">
+            <h3>Year 1</h3>
+            <div id="mod1" class="module-block stagger-item" style="animation-delay: 0.2s;">
+                <h4>Module 1: Smart Environments</h4>
+                <div class="work-grid">
+                    <div class="work-item small">
+                        <div class="work-img"></div>
+                        <p>Interactive Installation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="year2" class="year-section">
+            <h3>Year 2</h3>
+            <p class="placeholder">Plaats hier projecten of modules voor Year 2.</p>
+        </div>
+
+        <div id="year3" class="year-section">
+            <h3>Year 3</h3>
+            <p class="placeholder">Plaats hier projecten of modules voor Year 3.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <h2>Let’s connect!</h2>
+            <p>Contact me via:</p>
+            <a href="mailto:jouw@email.com" class="email-link">Fayevantslot@gmail.com</a>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/faye-van-t-slot-662a51293" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/faye.vts/" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
